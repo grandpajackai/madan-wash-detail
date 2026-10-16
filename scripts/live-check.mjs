@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-const base = new URL(process.argv[2] || 'https://grandpajackai.github.io/madan-wash-detail/');
+const base = new URL(process.argv[2] || 'https://madanwashanddetail.com/');
 const failures = [], checked = [];
 const started = new Date().toISOString();
 async function request(url, expected=200) {

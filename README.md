@@ -2,7 +2,7 @@
 
 A portfolio-led mobile detailing website for Miami Lakes, Miami-Dade and Broward County.
 
-**Live website:** https://grandpajackai.github.io/madan-wash-detail/
+**Live website:** https://madanwashanddetail.com/
 
 ## Design and content
 
@@ -20,7 +20,7 @@ npm run check
 npm run preview
 ```
 
-Preview: http://127.0.0.1:4173/madan-wash-detail/
+Preview: http://127.0.0.1:4173/
 
 - `content.mjs`: verified business details and service/area copy.
 - `scripts/build.mjs`: static HTML generator.
@@ -33,18 +33,20 @@ Preview: http://127.0.0.1:4173/madan-wash-detail/
 
 Rebuild and commit `docs/` whenever source content changes. GitHub Pages deploys `main` → `/docs` automatically.
 
-## Custom domain later
+## Custom domain
 
-The current deployment intentionally uses the free GitHub Pages address. No DNS or existing-domain settings were changed.
+Production builds default to `https://madanwashanddetail.com` and the root path `/`. The domain remains registered with Namecheap and the site is hosted on free GitHub Pages. The owner configured the website DNS records and GitHub custom domain; HTTPS is enabled.
 
-When ready to move the domain, rebuild with:
+The normal update workflow is:
 
 ```sh
-SITE_ORIGIN=https://madanwashanddetail.com BASE_PATH=/ npm run build
-node scripts/qa.mjs docs /
+npm run build
+npm run check
 ```
 
-Commit the rebuilt `docs/`, configure the custom domain in the repository's Pages settings, and update DNS using GitHub's current instructions. Enable HTTPS after the domain certificate is ready. Test the root homepage, all five existing service URLs, estimates, client login and custom 404. Submit the domain's `/sitemap.xml` in Google Search Console and verify the business profile link. Redirect any retired paths at the origin if necessary; GitHub Pages does not support server redirect rules.
+Commit the rebuilt `docs/` and push to `main`. `public/CNAME` is copied to `docs/CNAME` on every build, preserving the custom domain. Keep the domain configuration in GitHub Pages and the existing email DNS records in Namecheap. `SITE_ORIGIN` and `BASE_PATH` remain available as explicit build overrides.
+
+After a deployment, run `node scripts/live-check.mjs` and inspect the homepage, service pages, media, contact links, `www` redirect and custom 404. The production sitemap is `https://madanwashanddetail.com/sitemap.xml`; submit it in Google Search Console and update the business profile website link when ready. GitHub Pages does not support server redirect rules for arbitrary retired paths.
 
 ## Media and access
 

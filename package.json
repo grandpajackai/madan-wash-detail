@@ -6,7 +6,7 @@
   "description": "Madan Wash & Detail \u2014 mobile detailing and portfolio, built for GitHub Pages.",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/qa.mjs dist /madan-wash-detail/",
+    "check": "node scripts/qa.mjs docs /",
     "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory preview"
   },
   "engines": {
