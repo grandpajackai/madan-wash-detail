@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-10-16T21:16:43.992Z",
+  "outputDir": "/Users/grandpajack/Documents/ChatGPT/Gil Growth/madan-wash-detail/docs",
+  "basePath": "/madan-wash-detail/",
+  "pages": 15,
+  "localReferences": 549,
+  "publicBytes": 7816852,
+  "failures": [],
+  "warnings": [],
+  "largestAssets": [
+    {
+      "file": "assets/tesla-exterior-reveal.mp4",
+      "bytes": 1436776
+    },
+    {
+      "file": "assets/interior-carpet-recovery.mp4",
+      "bytes": 1393973
+    },
+    {
+      "file": "assets/hero-bmw.webp",
+      "bytes": 517922
+    },
+    {
+      "file": "assets/chevrolet-suv-exterior.webp",
+      "bytes": 368492
+    },
+    {
+      "file": "assets/nissan-altima-exterior.webp",
+      "bytes": 345926
+    },
+    {
+      "file": "assets/bmw-paint-reflection.webp",
+      "bytes": 318506
+    },
+    {
+      "file": "assets/gmc-wheel-detail.webp",
+      "bytes": 305648
+    },
+    {
+      "file": "assets/toyota-tacoma-exterior.webp",
+      "bytes": 279028
+    },
+    {
+      "file": "assets/hero-bmw-wide.webp",
+      "bytes": 247338
+    },
+    {
+      "file": "assets/bmw-blue-exterior.webp",
+      "bytes": 237832
+    }
+  ]
+}
