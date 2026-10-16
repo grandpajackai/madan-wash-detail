@@ -2,7 +2,8 @@
 
 Released October 16, 2026.
 
-- Live: https://grandpajackai.github.io/madan-wash-detail/
+- Live: https://madanwashanddetail.com/
+- Original review link: https://grandpajackai.github.io/madan-wash-detail/ (redirects to the custom domain)
 - Repository: https://github.com/grandpajackai/madan-wash-detail
 - Host: free public GitHub Pages, `main` branch / `docs` directory; HTTPS enabled.
 
@@ -28,4 +29,4 @@ Post-deployment browser evidence is recorded in `research/qa-live-browser.md`. S
 
 Three supplied Drive folders required Google sign-in, and the Instagram identity was not verified. The site uses accessible original media and contains no broken social embeds or placeholders. No AI hero was needed.
 
-No real estimate, call, email or text was submitted during QA. Native application handoff depends on the visitor's device; external Jobber uptime is outside this website. Review covers the observed browsers, sizes and release state, not every possible future device or outage. SEO structure is ready for discoverability, but no ranking is promised. Custom-domain setup is intentionally left to the owner; migration instructions are in README.md.
+No real estimate, call, email or text was submitted during QA. Native application handoff depends on the visitor's device; external Jobber uptime is outside this website. Review covers the observed browsers, sizes and release state, not every possible future device or outage. SEO structure is ready for discoverability, but no ranking is promised. The owner configured Namecheap DNS and the GitHub custom domain. The custom-domain cutover is complete; production build settings and the ongoing update workflow are documented in README.md and DOMAIN-REVIEW.md.
