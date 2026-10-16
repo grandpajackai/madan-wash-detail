@@ -8,7 +8,6 @@ const ORIGIN = (process.env.SITE_ORIGIN || 'https://grandpajackai.github.io').re
 const url = p => BASE + p.replace(/^\//, '');
 const absolute = p => ORIGIN + url(p);
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-fs.rmSync(out, { recursive:true, force:true });
 fs.mkdirSync(out, { recursive:true });
 fs.cpSync(path.join(root, 'public'), out, {recursive:true});
 const arrow = '<span class="arrow" aria-hidden="true">↗</span>';
@@ -78,7 +77,7 @@ fs.writeFileSync(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\nSitemap: 
 fs.writeFileSync(path.join(out,'.nojekyll'),'');
 // Keep the branch publishing folder identical to the audited output.
 const docs = path.join(root, 'docs');
-fs.rmSync(docs, {recursive:true,force:true});
+fs.mkdirSync(docs, {recursive:true});
 fs.cpSync(out, docs, {recursive:true});
 // Preview with the same repository subpath used by GitHub Pages.
 fs.mkdirSync(path.join(root,'preview',BASE),{recursive:true});

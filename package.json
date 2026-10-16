@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Madan Wash & Detail — mobile detailing and portfolio, built for GitHub Pages.",
+  "description": "Madan Wash & Detail \u2014 mobile detailing and portfolio, built for GitHub Pages.",
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/qa.mjs dist /madan-wash-detail/",
-    "preview": "python3 -m http.server 4173 --directory preview"
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory preview"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20.11.0"
+  }
 }

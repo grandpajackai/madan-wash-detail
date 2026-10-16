@@ -1,0 +1,219 @@
+{
+  "started": "2026-10-16T21:18:21.621Z",
+  "finished": "2026-10-16T21:18:29.290Z",
+  "base": "https://grandpajackai.github.io/madan-wash-detail/",
+  "pages": 14,
+  "checks": 48,
+  "failures": [],
+  "checked": [
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/sitemap.xml",
+      "status": 200,
+      "bytes": 1373
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/",
+      "status": 200,
+      "bytes": 17978
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/services/",
+      "status": 200,
+      "bytes": 9663
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/services/interior-car-detailing/",
+      "status": 200,
+      "bytes": 11437
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/services/exterior-car-detailing/",
+      "status": 200,
+      "bytes": 11447
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/services/leather-care-and-conditioning/",
+      "status": 200,
+      "bytes": 11662
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/services/engine-bay-and-heavy-contamination-cleaning/",
+      "status": 200,
+      "bytes": 11886
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/services/vehicle-rejuvenation-services/",
+      "status": 200,
+      "bytes": 11622
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/work/",
+      "status": 200,
+      "bytes": 15852
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/about/",
+      "status": 200,
+      "bytes": 9044
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/service-areas/",
+      "status": 200,
+      "bytes": 18678
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/contact/",
+      "status": 200,
+      "bytes": 10462
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/faqs/",
+      "status": 200,
+      "bytes": 13529
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/privacy/",
+      "status": 200,
+      "bytes": 7955
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/sitemap/",
+      "status": 200,
+      "bytes": 7151
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/app.js",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/madan-logo.png",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/manrope-extrabold.ttf",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/styles.css",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/mercedes-interior-console.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/hero-bmw.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/bmw-blue-exterior.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/robots.txt",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/lexus-gx-exterior.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/bmw-blue-exterior-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/lexus-gx-exterior-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/mercedes-interior-console-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/bmw-paint-reflection.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/bmw-paint-reflection-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/mercedes-exterior-finish.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/chevrolet-suv-exterior.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/nissan-altima-exterior.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/gmc-wheel-detail.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/hyundai-suv-exterior.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/ford-pickup-exterior.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/tesla-exterior-reveal-poster.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/tesla-exterior-reveal.mp4",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/interior-carpet-recovery-poster.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/mercedes-exterior-finish-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/gmc-wheel-detail-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/toyota-tacoma-exterior.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/interior-carpet-recovery.mp4",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/toyota-tacoma-exterior-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/nissan-altima-exterior-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/ford-pickup-exterior-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/assets/hyundai-suv-exterior-small.webp",
+      "status": 200
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/this-page-does-not-exist/",
+      "status": 404,
+      "bytes": 5939
+    },
+    {
+      "url": "https://grandpajackai.github.io/madan-wash-detail/services/interior-car-detailing",
+      "status": 200,
+      "bytes": 11437
+    }
+  ]
+}
