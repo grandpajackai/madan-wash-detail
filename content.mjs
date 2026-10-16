@@ -1,9 +1,10 @@
 // Business facts verified against madanwashanddetail.com on 2026-10-16.
+// Domain email updated at the owner's request.
 // New editorial copy avoids prices, certifications, ratings and outcome guarantees.
 export const business = {
   name: 'Madan Wash & Detail',
   phone: '(305) 904-5114',
-  email: 'madan.detail95@gmail.com',
+  email: 'info@madanwashanddetail.com',
   booking: 'https://clienthub.getjobber.com/hubs/2f2b106b-0f8b-497e-aedb-493e2366e05b/public/requests/4940126/embedded_new?source=sp_website',
   login: 'https://clienthub.getjobber.com/client_hubs/2f2b106b-0f8b-497e-aedb-493e2366e05b/login/new?source=share_login',
   hours: 'Tuesday–Saturday, 10 AM–5 PM. Closed Sunday & Monday.',
